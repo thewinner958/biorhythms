@@ -25,6 +25,6 @@
         D1 = BirthDay.Text
         D2 = Today
         Days = DateDiff(DateInterval.Day, D1, D2)
-        MsgBox("The percent of your " & Status & " state is " & Format(Math.Sin(360 * Days / Coeff), "00%"), 0, "Dr.Phil says...")
+        MsgBox("The percent of your " & Status & " state is " & Format(Math.Sin(360 * Days / Coeff), "00%"), 0, "Dr.Oz says...")
     End Sub
 End Class
